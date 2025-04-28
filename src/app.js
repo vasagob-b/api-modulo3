@@ -13,8 +13,7 @@ import cors from 'cors';
 // ejecutamos express desde la constante app
 const app = express()
 
-//habilitacion de cors
-app.use(cors());
+
 
 //Habilitacion del front end
 app.use(cors({
