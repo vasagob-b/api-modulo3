@@ -17,7 +17,7 @@ const app = express()
 
 //Habilitacion del front end
 app.use(cors({
-    origin: 'https://tu-front-en-netlify.netlify.app'
+    origin: 'https://bright-longma-b687da.netlify.app/'
   }));
 
 app.use(express.json())
